@@ -22,3 +22,4 @@ clj::user=>
 ; Execution error (FileNotFoundException) at user/eval35533 (form-init11066103596169137747.clj:1).
 Could not locate figwheel/main/api__init.class, figwheel/main/api.clj or figwheel/main/api.cljc on classpath.
 ; Failed starting cljs repl
+; nREPL Connection was closed

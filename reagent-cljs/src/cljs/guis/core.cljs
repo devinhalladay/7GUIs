@@ -6,8 +6,12 @@
    [reitit.frontend :as reitit]
    [clerk.core :as clerk]
    [accountant.core :as accountant]
-   [guis.counter :as counter :refer [counter]]
-   [guis.temperature-converter :as temperature-calculator]))
+   [guis.counter :refer [counter]]
+   [guis.temperature-converter :as temperature-calculator]
+   [guis.flight-booker :refer[flight-booker]]))
+
+
+
 
 ;; -------------------------
 ;; Routes
@@ -35,6 +39,7 @@
      [:h1 "Welcome to guis"]
      [counter]
      [temperature-calculator/component]
+     [flight-booker]
      [:ul
       [:li [:a {:href (path-for :items)} "Items of guis"]]
       [:li [:a {:href "/broken/link"} "Broken link"]]]]))
