@@ -6,3 +6,19 @@
 
 ; Connecting ...
 ; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj::user=> 
+; Creating cljs repl session...
+; Connecting cljs repl: Leiningen + Figwheel Main...
+;   The Calva Connection Log might have more connection progress information.
+; Starting cljs repl for: Leiningen + Figwheel Main...
+; Execution error (FileNotFoundException) at user/eval35533 (form-init11066103596169137747.clj:1).
+Could not locate figwheel/main/api__init.class, figwheel/main/api.clj or figwheel/main/api.cljc on classpath.
+; Failed starting cljs repl
