@@ -1,0 +1,15 @@
+{
+  "name": "7GUIs (Reagent / ClojureScript)",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "figwheel",
+      "command": "cd reagent-cljs && lein figwheel",
+      "description": "Figwheel dev server and ClojureScript auto-compiler. Serves the app at http://localhost:3449 and hot-reloads on source changes. An nREPL is available on port 7002."
+    }
+  ],
+  "ports": [
+    { "name": "figwheel web", "port": 3449 },
+    { "name": "figwheel nrepl", "port": 7002 }
+  ]
+}
